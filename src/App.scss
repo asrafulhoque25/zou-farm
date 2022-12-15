@@ -1,0 +1,136 @@
+/**
+ * @Main scss for (Template/Project Name)
+ * @project     - Zou Farm Project
+ * @author      - 
+ * @created_by  - Asraful Hoque
+ * @created_at  - 
+ * @modified_by -
+ */
+/* 
+
+
+/* reset, root */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #fff;
+    overflow-x: hidden;
+    font-family: 'Chivo', sans-serif !important;
+    transition: 0.8s ease-in-out;
+}
+
+:root {
+    --green: #66BB6A;
+    --black: #000000;
+    --black-light: #324148;
+    --black-light-gray: #263238;
+    --gray: #607D8B;
+    --white:#fff;
+}
+
+/* reset, root - END */
+
+// container resize
+.container {
+    @media (min-width: 1400px) {
+        max-width: 1230px;
+        padding: 0 15px;
+        margin: auto;
+    }
+}
+.min-container {
+    @media (min-width: 1400px) {
+        max-width: 1090px;
+        padding: 0 15px;
+         margin: auto;
+    }
+}
+
+/* helper , base classes */
+
+a{
+    text-decoration: none;
+}
+// text-color
+.text-green {
+    color: var(--green);
+}
+.text-black {
+    color: var(--black);
+}
+.text-black-light-gray {
+    color: var(--black-light-gray);
+}
+.text-gray {
+    color: var(--gray);
+}
+.text-white {
+    color: var(--white);
+}
+
+// BG color
+.bg-green {
+    background-color: var(--green);
+}
+.bg-black {
+    background-color: var(--black);
+}
+.bg-black-light-gray {
+    background-color: var(--black-light-gray);
+}
+.bg-gray {
+    background-color: var(--gray);
+}
+
+// font-sizing properties
+
+.fs-48{
+    font-size: 46px;
+}
+.fs-14{
+    font-size: 14px;
+}
+.fs-16{
+    font-size: 16px;
+}
+.fs-18{
+    font-size: 16px;
+}
+.fs-36{
+    font-size: 36px;
+}
+.fs-31{
+    font-size: 31px;
+}
+.fs-24{
+    font-size: 24px;
+}
+
+
+    //letter spacing properties
+
+    .ls-2{
+        letter-spacing: 2.8px;
+    }
+
+    //display properties
+
+    .d-flex{
+        display: flex;
+    }
+    .align-items-center{
+        align-items: center;
+    }
+    .justify-content-center{
+        justify-content: center;;
+    }

@@ -1,0 +1,42 @@
+.banner {
+    background-repeat: no-repeat;
+    background-size: 45% 100%;
+    background-position: top right;
+    min-height: 100vh;
+    .banner-wrapper {
+        display: flex;
+        align-items: center;
+        height: 100vh;
+        .banner-left {
+            max-width: 50%;
+            width: 100%;
+            .banner-left-wrapper {
+                max-width: 475px;
+                width: 100%;
+                .banner-heading {
+                    line-height: 64px;
+                    font-weight: 700;
+                }
+                .banner-pra {
+                    line-height: 32px;
+                    margin-top: 20px;
+                }
+                .invest-btn {
+                    background: #66bb6a;
+                    border-radius: 5px;
+                    height: 48px;
+                    padding: 0 25px;
+                    border: 0;
+                    cursor: pointer;
+                    transition: .2s all linear;
+                    margin-top: 50px;
+
+                    &:hover{
+                        background-color: #53AA57;
+                        transform: translateY(-2px);
+                    }
+                }
+            }
+        }
+    }
+}

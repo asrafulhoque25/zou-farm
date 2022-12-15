@@ -1,0 +1,52 @@
+.header {
+    padding: 40px 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    .header-wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .header-left {
+            display: flex;
+            align-items: center;
+
+            .brand {
+                margin-right: 100px;
+            }
+
+            .nav-link {
+                display: flex;
+                gap: 41px;
+                .nav-item{
+                    line-height: 19px;
+                    transition: .1s all linear;
+
+                    &:hover{
+                        color: var(--green) !important;
+                    }
+                }
+            }
+        }
+        .header-right {
+            .sign-up {
+                border: 1px solid #ffffff;
+                border-radius: 5px;
+                height: 48px;
+                padding: 0 23px;
+                color: #f1f8e9;
+                transition: .1s all linear;
+                span {
+                    margin-left: 8px;
+                }
+
+                &:hover{
+                    background-color: var(--green);
+                    border: 1px solid var(--green);
+                }
+            }
+        }
+    }
+}
