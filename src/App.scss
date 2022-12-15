@@ -61,6 +61,28 @@ body {
 a{
     text-decoration: none;
 }
+.common-heading{
+    margin-bottom: 50px;
+}
+.common-title{
+    margin-bottom: 10px;
+}
+
+.lh-64{
+    line-height: 64px;
+}
+
+.lh-32{
+    line-height: 32px;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.lh-24{
+    line-height: 24px;
+}
 // text-color
 .text-green {
     color: var(--green);
