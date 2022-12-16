@@ -1,0 +1,94 @@
+.testimonial {
+    padding: 100px 0;
+    .testimonial-heading {
+        position: relative;
+        display: inline-block;
+        padding-bottom: 80px;
+
+        .quote-image {
+            position: absolute;
+            left: 0;
+            top: 0;
+        }
+    }
+    .slider-wrapper {
+        .slider-item {
+            background: #ffffff;
+            box-shadow: -1px 13px 20px #f0f2f4;
+            border-radius: 5px;
+            padding: 40px 45px 45px 45px;
+            .profile {
+                .profile-info {
+                    gap: 10px;
+                    img {
+                        height: 82px;
+                        width: 82px;
+                    }
+                }
+            }
+            .testimonial-content {
+                gap: 10px;
+                margin-top: 20px;
+                .quote {
+                    margin-top: 5px;
+                }
+            }
+        }
+    }
+}
+
+.slick-slide {
+    margin: 0 20px;
+}
+.slick-list {
+    margin: 0 -20px;
+}
+.slick-list {
+    // &::after {
+    //     content: "";
+    //     position: absolute;
+    //     left: 0;
+    //     width: 200px;
+    //     height: 100%;
+    //     background: linear-gradient(270deg, rgba(255, 255, 255, 0.0001) 17%, #ffffff 61.54%);
+    //     border-radius: 5px;
+    //     z-index: 8888;
+    //     top: 0;
+    // }
+    // &::before {
+    //     content: "";
+    //     position: absolute;
+    //     right: 0;
+    //     width: 200px;
+    //     height: 100%;
+    //     background: linear-gradient(90deg, rgba(255, 255, 255, 0.0001) 0%, #FFFFFF 60.76%);
+    //     border-radius: 5px;
+    //     z-index: 8888;
+    //     top: 0;
+    // }
+}
+
+.slick-prev, .slick-next {
+    font-size: 0;
+    line-height: 0;
+    position: absolute;
+    top: 112%;
+    display: block;
+    width: 34px;
+    height: 48px;
+    padding: 0;
+    transform: translate(0, -50%);
+    cursor: pointer;
+    color: transparent;
+    border: none;
+    outline: none;
+    background: transparent;
+    background: red;
+    bottom: 0 !important;
+}
+.slick-next {
+    left: 5px !important;
+    margin-left: 20px;
+//     background: #FFFFFF;
+// box-shadow: -1px 13px 20px #F0F2F4;
+}
