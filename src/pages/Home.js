@@ -5,7 +5,7 @@ import NewOpportunities from '../components/newOpportunities/NewOpportunities'
 import Invest from '../components/invest/Invest'
 import Workprocess from '../components/workprocess/Workprocess'
 import Testimonial from '../components/testimonial/Testimonial'
-import CallToAction from '../components/callToAction/CallToAction'
+import Footer from '../components/footer/Footer'
 const Home = () => {
   return (
     <div>
@@ -15,7 +15,7 @@ const Home = () => {
           <Invest />
           <Workprocess />
           <Testimonial />
-          <CallToAction />
+          <Footer />
     </div>
   )
 }

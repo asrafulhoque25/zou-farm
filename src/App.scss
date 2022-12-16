@@ -99,6 +99,12 @@ ul{
 .lh-24{
     line-height: 24px;
 }
+.mb-20{
+    margin-bottom: 20px;
+}
+.text-uppercase{
+    text-transform: uppercase;
+}
 // text-color
 .text-green {
     color: var(--green);
@@ -169,6 +175,10 @@ ul{
 
     //display properties
 
+   
+    .d-block{
+        display: flex;
+    }
     .d-flex{
         display: flex;
     }

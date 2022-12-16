@@ -55,6 +55,7 @@ const Testimonial = (props) => {
           </h2>
           <img src={quote} className="img-fluid quote-image" alt="" />
         </div>
+        </div>
         <div className="slider-wrapper">
           <Slider {...settings}>
             <div>
@@ -144,7 +145,7 @@ const Testimonial = (props) => {
             </div>
           </Slider>
         </div>
-      </div>
+    
     </div>
   );
 };
