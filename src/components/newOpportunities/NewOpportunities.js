@@ -2,6 +2,7 @@ import "./NewOpportunities.scss";
 import OpportunitiesImgOne from "../../assets/images/opportunitie-icon-1.svg";
 import OpportunitiesImgTwo from "../../assets/images/opportunitie-icon-2.svg";
 import OpportunitiesImgThree from "../../assets/images/opportunitie-icon-3.svg";
+import leftLeaf from "../../assets/images/leaf-shape.png"
 
 const cardData = [
   {
@@ -26,7 +27,10 @@ const cardData = [
 
 function NewOpportunities() {
   return (
-    <>
+    <div className="opportunities"> 
+    <div className="opportunities-shape">
+    <img src={leftLeaf} className='img-fluid' alt="" />
+    </div>
       <div className="min-container">
         <div className="common-heading  text-center">
           <h6 className="common-title fs-36 lh-64 text-black">
@@ -39,7 +43,7 @@ function NewOpportunities() {
           </div>
         </div>
 
-        <div className="card-wrapper opportunities-right">
+        <div className="card-wrapper">
           {cardData.map((cardInfo) => (
             <div className="card">
               <div className="card-body">
@@ -57,7 +61,7 @@ function NewOpportunities() {
           ))}
         </div>
       </div>
-    </>
+    </div>
   );
 }
 

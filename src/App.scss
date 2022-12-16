@@ -31,6 +31,7 @@ body {
 
 :root {
     --green: #66BB6A;
+    --green-light: #E2EFD2;
     --black: #000000;
     --black-light: #324148;
     --black-light-gray: #263238;
@@ -62,7 +63,7 @@ a{
     text-decoration: none;
 }
 .common-heading{
-    margin-bottom: 50px;
+    margin-bottom: 80px;
 }
 .common-title{
     margin-bottom: 10px;
@@ -75,9 +76,18 @@ a{
 .lh-32{
     line-height: 32px;
 }
+.lh-40{
+    line-height: 40px;
+}
 
 .text-center{
     text-align: center;
+}
+.text-start{
+    text-align: start;
+}
+.img-fluid{
+    max-width: 100%;
 }
 
 .lh-24{
@@ -86,6 +96,9 @@ a{
 // text-color
 .text-green {
     color: var(--green);
+}
+.text-green-light {
+    color: var(--green-light);
 }
 .text-black {
     color: var(--black);
@@ -155,4 +168,7 @@ a{
     }
     .justify-content-center{
         justify-content: center;;
+    }
+    .justify-content-between{
+        justify-content: space-between;;
     }
