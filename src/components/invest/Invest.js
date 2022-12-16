@@ -36,7 +36,7 @@ const Invest = () => {
           </div>
         </div>
 
-        <div className="invest-wrapper d-flex justify-content-between">
+        <div className="invest-wrapper d-flex">
           {investCardData.map((cardInfo) => (
             <div className="card">
               <div className="card-body">

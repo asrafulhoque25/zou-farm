@@ -1,6 +1,7 @@
 .invest {
     padding: 100px 0;
     .invest-wrapper {
+        gap: 50px;
         .card-body {
             .card-img {
                 position: relative;
@@ -40,6 +41,7 @@
                         &:hover{
                             background: var(--green);
                             color: var(--white);
+                            transform: translateY(-2px);
                         }
                     }
                 }

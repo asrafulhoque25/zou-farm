@@ -3,6 +3,7 @@ import Header from '../components/header/Header'
 import Banner from '../components/banner/Banner'
 import NewOpportunities from '../components/newOpportunities/NewOpportunities'
 import Invest from '../components/invest/Invest'
+import Workprocess from '../components/workprocess/Workprocess'
 const Home = () => {
   return (
     <div>
@@ -10,6 +11,7 @@ const Home = () => {
           <Banner />
           <NewOpportunities />
           <Invest />
+          <Workprocess />
     </div>
   )
 }
