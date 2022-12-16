@@ -10,16 +10,15 @@ import "./Testimonial.scss";
 
 const Testimonial = (props) => {
   const settings = {
-    dots: true,
+    dots: false,
     arrows: true,
     infinite: true,
     speed: 2500,
     slidesToShow: 3,
     slidesToScroll: 1,
-    autoplay: false,
+    autoplay: true,
     autoplaySpeed: 4000,
     adaptiveHeight: true,
-    // centerMode: true,
     centerMode: true,
     centerPadding:'80px',
    

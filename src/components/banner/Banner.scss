@@ -13,6 +13,8 @@
             .banner-left-wrapper {
                 max-width: 475px;
                 width: 100%;
+                position: relative;
+                z-index: 55;
                 .banner-heading {
                     line-height: 64px;
                     font-weight: 700;
